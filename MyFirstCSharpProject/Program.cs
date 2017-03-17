@@ -4,9 +4,11 @@ namespace MyFirstCSharpProject
 {
 	class MainClass
 	{
-		public static void Main(string[] args)
+		public static void Main(string[] args) // fuck my args
+
 		{
-			Console.WriteLine("Hello World, o matkou!");
+			var name = "Beeelzebuub Gorgoroth";
+			Console.WriteLine($"Hello {name}");
 		}
 	}
 }
